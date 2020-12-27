@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: White;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -57,4 +57,113 @@ nav a:hover{
 #search{
     padding-right: 30px;
     padding-bottom: 20px;
+}
+
+section{
+    margin-top: 60px;
+    background-color: white;
+}
+
+.title{
+    padding-top: 50px;
+    color: black;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    width: 80%;
+    border: none;
+    height: 1px;
+    background-color: black;
+}
+
+#cat-button{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#cat-button button:hover{
+    cursor: pointer;
+}
+
+.category{
+    font-size: 20px;
+    width: 25%;
+    height: 40px;
+}
+
+.flex-container{
+    width: 100%;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex-items{
+    width: 250px;
+    height: 300px;
+    margin: 3px;
+    border: black;
+    /* background-color: #f4e0d7; */
+}
+
+.flex-items-container{
+    width: 250px;
+    height: 250px;
+    box-shadow: 2px 2px 5px rgb(153, 153, 153);
+}
+
+.flex-items p{
+    text-align: center;
+    font-size: 18px;
+    color: #333333;
+}
+
+.flex-items-container:hover{
+    background-color: #f7f7f7;
+}
+
+.flex-items a{
+    text-decoration: none;
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+#manga{
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+}
+
+#anime{
+    margin-right: 10px;
+    background-color: white;
+    color: black;
+}
+
+#manga, #anime{
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#manga img, #anime img{
+    display: none;
+}
+
+#flex-container2 .flex-items-container{
+    display: flex;
+    justify-content: center;
 }
