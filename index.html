@@ -2,8 +2,8 @@
 <html>
 <head>
     <title>Anime List</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -32,208 +32,19 @@
         <div class="title"><p>Browse</p></div>
         <hr>
         <div id="cat-button">
-            <button id="manga" class="category" onclick=showManga()>
-                <label>MANGA</label>
-                <img id="s-icon" src="img/sneakers.png" style="padding-top: 7px;" width=35px>
-            </button>
             <button id="anime" class="category" onclick=showAnime()>
                 <label>ANIME</label>
-                <img id="a-icon" src="img/shirt (1).png" width=29px>
+            </button>
+            <button id="manga" class="category" onclick=showManga()>
+                <label>MANGA</label>
             </button>
         </div>
-        <div id="flex-container1" class="flex-container">
-            <div class="flex-items">
-                <a href="product.html" onclick="showProduct('Air Jordan 1 Retro High Mocha','img/MOcha.png','239')">
-                    <div class="flex-items-container">
-                        <div class="imgContainer">
-                            <img src="img/MOcha.png" width=100%>
-                        </div>
-                        <article>
-                            <div class="description"></div>
-                        </article>
-                    </div>
-                    <p>Manga</p>
-                </a>
-            </div>
-            <div class="flex-items">
-                <a href="product.html" onclick="showProduct('Air Jordan 1 Retro High Fearless UNC','img/UNC_Fearless.png','239')">
-                    <div class="flex-items-container">
-                        <div class="imgContainer">
-                            <img src="img/UNC_Fearless.png" width=100%>
-                        </div>
-                        <article>
-                            <div class="description"></div>
-                        </article>
-                    </div>
-                    <p>Manga</p>
-                </a>
-            </div>
-            <div class="flex-items">
-                <a href="product.html" onclick="showProduct('Air Jordan 1 Low Light Smoke Grey','img/SmokeGreyLow.png','159')">
-                    <div class="flex-items-container">
-                        <div class="imgContainer">
-                            <img src="img/SmokeGreyLow.png" width=100%>
-                        </div>
-                        <article>
-                            <div class="description"></div>
-                        </article>
-                    </div>
-                    <p>Manga</p>
-                </a>
-            </div>
-            <div class="flex-items">
-                <a href="product.html" onclick="showProduct('Yeezy Boost 350 V2 Zebra','img/Zebra.png','349')">
-                    <div class="flex-items-container">
-                        <div class="imgContainer">
-                            <img src="img/Zebra.png" width=100%>
-                        </div>
-                        <article>
-                            <div class="description"></div>
-                        </article>
-                    </div>
-                    <p>Manga</p>
-                </a>
-            </div>
-            <div class="flex-items">
-                <a href="product.html" onclick="showProduct('Union LA x Air Jordan 4 Guava Ice','img/UnionGuavaIce.png','450')">
-                    <div class="flex-items-container">
-                        <div class="imgContainer">
-                            <img src="img/UnionGuavaIce.png" width=100%>
-                        </div>
-                        <article>
-                            <div class="description"></div>
-                        </article>
-                    </div>
-                    <p>Manga</p>
-                </a>
-            </div>
-            <div class="flex-items">
-                <a href="product.html" onclick="showProduct('G-Dragon Peaceminusone Nike Air Force 1 Low Para-Noise','img/Paranoise.png','279')">
-                    <div class="flex-items-container">
-                        <div class="imgContainer">
-                            <img src="img/Paranoise.png" width=100%>
-                        </div>
-                        <article>
-                            <div class="description"></div>
-                        </article>
-                    </div>
-                    <p>Manga</p>
-                </a>
-            </div>
-            <div class="flex-items">
-                <a href="product.html" onclick="showProduct('G-Dragon Peaceminusone Nike Air Force 1 Low Para-Noise 2.0','img/paranoise_2.0.png','279')">
-                    <div class="flex-items-container">
-                        <div class="imgContainer">
-                            <img src="img/paranoise_2.0.png" width=100%>
-                        </div>
-                        <article>
-                            <div class="description"></div>
-                        </article>
-                    </div>
-                    <p>Manga</p>
-                </a>
-            </div>
-            <div class="flex-items">
-                <a href="product.html" onclick="showProduct('Nike SB Dunk Low Travis Scott','img/TS_Dunk.png','159')">
-                    <div class="flex-items-container">
-                        <div class="imgContainer">
-                            <img src="img/TS_Dunk.png" width=100%>
-                        </div>
-                        <article>
-                            <div class="description"></div>
-                        </article>
-                    </div>
-                    <p>Manga</p>
-                </a>
-            </div>
-            <div class="flex-items">
-                <a href="product.html" onclick="showProduct('Grateful Dead x Nike SB Dunk Low Opti Yellow','img/BearDunk.png','159')">
-                    <div class="flex-items-container">
-                        <div class="imgContainer">
-                            <img src="img/BearDunk.png" width=100%>
-                        </div>
-                        <article>
-                            <div class="description"></div>
-                        </article>
-                    </div>
-                    <p>Manga</p>
-                </a>
-            </div>
-        </div>
-        <div id="flex-container2" class="flex-container">
-            <div class="flex-items">
-                <a href="product.html" onclick="showProduct('Off White Denim Jeans','img/pants1.jpg','430')">
-                    <div class="flex-items-container">
-                        <div class="imgContainer">
-                            <img src="img/pants1.jpg" width="100%">
-                        </div>
-                        <article>
-                            <div class="description"></div>
-                        </article>
-                    </div>
-                    <p>Anime</p>
-                </a>
-            </div>
-            <div class="flex-items">
-                <a href="product.html" onclick="showProduct('Off White Long Sleeve Shirt White','img/OW1.jpg','330')">
-                    <div class="flex-items-container">
-                        <div class="imgContainer">
-                            <img src="img/OW1.jpg" width=100%>
-                        </div>
-                        <article>
-                            <div class="description"></div>
-                        </article>
-                    </div>
-                    <p>Anime</p>
-                </a>
-            </div>
-            <div class="flex-items">
-                <a href="product.html" onclick="showProduct('Essentials Cream Hoodie','img/Essentials4.jpg','200')">
-                    <div class="flex-items-container">
-                        <div class="imgContainer">
-                            <img src="img/Essentials4.jpg" width=100%>
-                        </div>
-                        <article>
-                            <div class="description"></div>
-                        </article>
-                    </div>
-                    <p>Anime</p>
-                </a>
-            </div>
-            <div class="flex-items">
-                <a href="product.html">
-                    <div class="flex-items-container" onclick="showProduct('Off White Long Sleeve Shirt Black','img/OW2.jpg','330')">
-                        <div class="imgContainer">
-                            <img src="img/OW2.jpg" width=100%>
-                        </div>
-                        <article>
-                            <div class="description"></div>
-                        </article>
-                    </div>
-                    <p>Anime</p>
-                </a>
-            </div>
-            <div class="flex-items">
-                <a href="product.html">
-                    <div class="flex-items-container" onclick="showProduct('Off White Nike T-shirt &quot;Logo&quot;','img/OW4.jpg','230')">
-                        <div class="imgContainer">
-                            <img src="img/OW4.jpg" width=100%>
-                        </div>
-                        <article>
-                            <div class="description"></div>
-                        </article>
-                    </div>
-                    <p>Anime</p>
-                </a>
-            </div>
-        </div> 
-    <section>
-        <button id="btnFetch">Click to send a Request</button>
-    </section>
+        <div id="flex-container1" class="flex-container"></div>
+        <div id="flex-container2" class="flex-container"></div> 
     <!-- footer -->
     <footer>
     </footer>
 </body>
 </html>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script defer src="script.js"></script>
+<script defer src="script/script.js"></script>

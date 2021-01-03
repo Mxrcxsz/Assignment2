@@ -72,7 +72,7 @@ section{
     justify-content: center;
 }
 
-hr {
+hr{
     width: 80%;
     border: none;
     height: 1px;
@@ -105,16 +105,15 @@ hr {
 }
 
 .flex-items{
-    width: 250px;
-    height: 300px;
-    margin: 3px;
+    width: 230px;
+    height: 400px;
+    margin: 20px;
     border: black;
     /* background-color: #f4e0d7; */
 }
 
 .flex-items-container{
-    width: 250px;
-    height: 250px;
+    font-size: 0px;
     box-shadow: 2px 2px 5px rgb(153, 153, 153);
 }
 
@@ -133,21 +132,27 @@ hr {
 }
 
 .imgContainer{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 20px;
+    width: 230px;
+    height: 350px;
+    object-fit: fill;
+}
+
+.imgContainer img{
+    height: 100%; 
+    width: 100%; 
+    object-fit: contain'
 }
 
 #manga{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     margin-right: 10px;
 }
 
 #anime{
     margin-right: 10px;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 #manga, #anime{
@@ -158,11 +163,6 @@ hr {
     justify-content: center;
     align-items: center;
 }
-
-#manga img, #anime img{
-    display: none;
-}
-
 #flex-container2 .flex-items-container{
     display: flex;
     justify-content: center;
